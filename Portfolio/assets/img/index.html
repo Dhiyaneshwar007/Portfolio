@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="gym"
+      type="image/jpg"
+      sizes="180x180"
+      href="assets/icons/gym.jpg"
+    />
+    <link
+      rel="icon"
+      type="image/jpeg"
+      sizes="32x32"
+      href="assets/icons/gym 32x32.jpeg"
+    />
+    <link
+      rel="icon"
+      type="image/jpg"
+      sizes="16x16"
+      href="assets/icons/gym 16x16.jpg"
+    />
+
+    <title>Elevate Your Fitness | My Gym Story</title>
+  </head>
+  <body >
+    <nav>
+      <a href="#" class="logo">
+        <h1>
+          <span class="fw">Fitwith</span><span class="dhiyan">Dhiyanesh</span
+          ><span class="fist">&#x1F44A;</span>
+        </h1>
+      </a>
+
+      <!-- Dark/light theme switcher -->
+      <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+          <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+          <ion-icon name="moon-outline" class="moon"></ion-icon>
+          <div class="switcher"></div>
+        </label>
+      </div>
+
+      <ul>
+        <li class="nav-item">
+          <a href="#about" class="nav-link" id="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#stars" class="nav-link" id="nav">Me</a>
+        </li>
+        <li class="nav-item">
+          <a href="#stakeholders" class="nav-link" id="nav1"
+            >CrewMembers</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#sub" class="nav-link" id="nav2">Subscribe</a>
+        </li>
+      </ul>
+
+      <!-- Bars -->
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="gym">
+      <div class="intro-text">
+        <h1>
+          <span class="hear"> Push your limits </span> <br />
+          <span class="connecting"> Connect with me</span>
+        </h1>
+        <p>
+          An online streaming platform for Fitness content <br />
+          We also dedicate some special time to throwbacks cuz old is gold
+        </p>
+        <a class="btn red" href="#">Learn More</a>
+        <a class="btn blue" href="https://www.instagram.com/wtf_dhiyanesh?igsh=N2xrc3FpZXBzbnJx">Follow</a>
+      </div>
+      <div class="i-frame">
+        <iframe width="560" height="315" 
+    src="https://www.instagram.com/reel/DAKi6q3pJT7/embed/" 
+    title="Youtube video player"
+    frameborder="10" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    ></iframe>
+
+        <div class="stand-1"></div>
+        <div class="stand-2"></div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <h3>Watch the contents</h3>
+      <p>
+        Our primary objective is to bring you to acheive your fitness goal
+      </p>
+
+      <h3>Its not About only fitness!</h3>
+      <p>
+        We also teach you about nutrition,lifestyle and daily gym routines
+      </p>
+    </section>
+    
+
+    <!-- Lightbox image gallery -->
+    <section class="stars" id="stars">
+      <div class="stars-gallery">
+        <a href="assets/images/dy.jpg" class="big">
+          <img
+            src="assets/images/dy.jpg"
+            
+          />
+        </a>
+
+        <a href="assets/images/db.jpg" class="big">
+          <img
+            src="assets/images/db.jpg"
+           
+          />
+        </a>
+
+        <a href="assets/images/slam.jpg" class="big">
+          <img
+            src="assets/images/slam.jpg"
+          />
+        </a>
+
+        <a href="assets/images/selfi.jpg" class="big">
+          <img
+            src="assets/images/selfi.jpg"
+           
+          />
+        </a>
+
+        <a href="assets/images/str.jpg" class="big"
+          ><img
+            src="assets/images/str.jpg"
+           
+          />
+        </a>
+
+        <a href="assets/images/abs.jpg" class="big">
+          <img
+            src="assets/images/abs.jpg"
+            
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Jab TV Stakeholders -->
+    <section class="people" id="stakeholders">
+      <div class="stakeholders">
+        <div class="persons">
+          <div class="person-1">
+            <img src="assets/images/bts.jpg" width="350 px" height="242px" aria-orientation="horizontal" alt="John Doe" />
+            <p class="name">Kishore</p>
+            <p class="role">Cameraman</p>
+          </div>
+          <div class="person-2">
+            <img src="assets/images/sa.jpg" width="350 px" height="242px" aria-orientation="horizontal" alt="Jane Doe" />
+            <p class="name">Santhosh</p>
+            <p class="role">Editor</p>
+          </div>
+          <div class="person-3">
+            <img src="assets/images/cl.jpg" width="350 px" height="242px" aria-orientation="horizontal" alt="John Doe Jnr" />
+            <p class="name">Suresh</p>
+            <p class="role">Account Handling</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Email subscription -->
+    <section class="sub" id="sub">
+      <h3>Subscribe to our Fitness Journey</h3>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+    </section>
+
+    <!-- Social icons -->
+    <section class="social">
+      <h3>Connect with us on Social Media</h3>
+      <div class="socicons">
+        <a href="https://www.linkedin.com/in/dhiyaneshwar-s-95684a291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <ion-icon name="logo-linkedin"></ion-icon> </a>
+        <a href="https://www.instagram.com/wtf_dhiyanesh?igsh=N2xrc3FpZXBzbnJx"> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="https://www.facebook.com/dhiyaneshwars.s?mibextid=ZbWKwL"> <ion-icon name="logo-facebook"></ion-icon> </a>
+      </div>
+    </section>
+
+    <footer>&copy;2020. All Rights Reserverd</footer>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.png"
+        class="socicon up-arrow"
+        alt="up-arrow"
+    /></i>
+
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+      var lightbox = new SimpleLightbox(".stars-gallery a");
+    </script>
+  </body>
+</html>
